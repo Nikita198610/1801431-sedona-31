@@ -1,0 +1,164 @@
+
+:root {
+  --basic-black: #000000;
+  --basic-extra-dark: #242424;
+  --basic-dark: #aba9a7;
+  --basic-neutral: #e5e5e5;
+  --basic-extra-light: #f8f5f2;
+  --basic-white: #ffffff;
+
+  --special: #663d15;
+}
+
+body {
+  min-width: 960px;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: var(--basic-black);
+  text-transform: uppercase;
+  background-color: var(--basic-white);
+  background-image: url("img/bg.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.main-navigation {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+  color: var(--basic-black);
+  background-color: transparent;
+}
+
+.sait-navigation {
+  text-decoration: none;
+  list-style: none;
+}
+
+.navigation-wrapper {
+  background-color: var(--basic-white);
+}
+
+.features-list {
+  list-style: none;
+}
+
+.features-item-1 h2 {
+  color: var(--basic-white);
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 700;
+}
+
+.features-item-1 {
+  background-color: #81B3D2;
+}
+
+.features-item-3 h2 {
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 700;
+}
+
+.features-item-4 h2 {
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 700;
+}
+
+.features-item-5 h2 {
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 700;
+}
+
+.features-item-7 h2 {
+  color: var(--basic-white);
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 700;
+}
+
+.features-item-7 {
+  background-color: #81B3D2;
+}
+
+.features-item-8 h2 {
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 700;
+}
+
+.features-item-9 h2 {
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 700;
+}
+
+.features-item-10 h2 {
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 700;
+}
+
+.search-hotel h3 {
+  font-size: 30px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.search-hotel {
+  text-align: center;
+  color: var(--basic-white);
+}
+
+.search-hotel h2 {
+  font-size: 30px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.search-hotel h2 {
+  text-align: center;
+}
+
+.earch-hotel p {
+  color: var(--basic-white);
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  background-color: #766357;
+}
+
+.main-footer {
+  background: rgba(255, 255, 255, 0.9);
+  color: var(--basic-black);
+}
+
+.footer-contacts {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.footer-contacts ul {
+  list-style: none;
+}
+
+.footer-social {
+  text-align: center;
+}
+
+.footer-social ul {
+  list-style: none;
+}
+
+.footer-copyright h2 {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+}
