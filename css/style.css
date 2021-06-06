@@ -162,3 +162,104 @@ body {
   line-height: 26px;
   font-weight: 400;
 }
+
+/*catalog*/
+
+.filters legend {
+  color: var(--basic-white);
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 700;
+}
+
+.filters ul {
+  list-style: none;
+  color: var(--basic-white);
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.filter-input-checkbox:hover + label,
+.filter-input-checkbox:focus + label {
+  color: var(--special);
+}
+
+.resalt {
+  color: var(--basic-black);
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.type-sort {
+  color: var(--basic-black);
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.prise {
+  color: #81B3D2;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.type {
+  color: var(--basic-black);
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.rating {
+  color: var(--basic-black);
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.Amar-resort {
+  color: var(--basic-black);
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.Desert-Quail {
+  color: var(--basic-black);
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.Poco-Diablo {
+  color: var(--basic-black);
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.hotel-name {
+  color: var(--basic-black);
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.detail {
+  background-color: #81B3D2;
+  color: var(--basic-white);
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+}
+
+.reserve {
+  background-color: #766357;
+  color: var(--basic-white);
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+}
