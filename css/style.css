@@ -10,7 +10,7 @@
   --special: #663d15;
 }
 
-body {
+.page-body {
   min-width: 960px;
   margin: 0;
   padding: 0;
@@ -24,9 +24,20 @@ body {
   background-image: url("img/bg.jpg");
   background-position: top center;
   background-repeat: no-repeat;
+
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  align-content: start;
+}
+
+.page {
+  height: 100%;
 }
 
 .main-navigation {
+  display: grid;
+  justify-content: stretch;
   font-size: 14px;
   line-height: 26px;
   font-weight: 700;
@@ -37,14 +48,34 @@ body {
 .sait-navigation {
   text-decoration: none;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .navigation-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
   background-color: var(--basic-white);
+  padding: 0 10px;
+}
+
+.contaner {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.greeting{
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 0 10px;
 }
 
 .features-list {
+  display: grid;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .features-item-1 h2 {
@@ -52,6 +83,11 @@ body {
   font-size: 21px;
   line-height: 21px;
   font-weight: 700;
+}
+
+.features-1_2 {
+display: grid;
+grid-template-columns: 1fr 2fr;
 }
 
 .features-item-1 {
@@ -76,6 +112,11 @@ body {
   font-weight: 700;
 }
 
+.features-3_5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  }
+
 .features-item-7 h2 {
   color: var(--basic-white);
   font-size: 21px;
@@ -93,6 +134,11 @@ body {
   font-weight: 700;
 }
 
+.features-6_7 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  }
+
 .features-item-9 h2 {
   font-size: 21px;
   line-height: 21px;
@@ -105,6 +151,11 @@ body {
   font-weight: 700;
 }
 
+.features-8_10 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  }
+
 .search-hotel h3 {
   font-size: 30px;
   line-height: 24px;
@@ -112,6 +163,9 @@ body {
 }
 
 .search-hotel {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
   text-align: center;
   color: var(--basic-white);
 }
@@ -126,7 +180,7 @@ body {
   text-align: center;
 }
 
-.earch-hotel p {
+.search-hotel p {
   color: var(--basic-white);
   font-size: 21px;
   line-height: 26px;
@@ -135,8 +189,12 @@ body {
 }
 
 .main-footer {
+  display: grid;
   background: rgba(255, 255, 255, 0.9);
   color: var(--basic-black);
+  margin: 0;
+  padding: 0;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .footer-contacts {
