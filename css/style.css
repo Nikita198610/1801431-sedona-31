@@ -223,6 +223,10 @@ grid-template-columns: 1fr 2fr;
 /*catalog*/
 
 .filters legend {
+  display: grid;
+  margin: 0;
+  padding: 0;
+  grid-template-columns: 1fr 1fr 2fr;
   color: var(--basic-white);
   font-size: 16px;
   line-height: 21px;
@@ -240,6 +244,13 @@ grid-template-columns: 1fr 2fr;
 .filter-input-checkbox:hover + label,
 .filter-input-checkbox:focus + label {
   color: var(--special);
+}
+
+.search-result {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0;
+  padding: 0;
 }
 
 .resalt {
