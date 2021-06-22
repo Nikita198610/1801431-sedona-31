@@ -11,7 +11,7 @@
 }
 
 .page-body {
-  min-width: 960px;
+  min-width: 1200px;
   margin: 0;
   padding: 0;
   font-family: "PT Sans", Arial, sans-serif;
@@ -44,25 +44,23 @@
   background-color: transparent;
 }
 
+
+.navigation-wrapper {
+  display: grid;
+  justify-content: stretch;
+  background-color: var(--basic-white);
+  padding: 0 10px;
+}
+
 .sait-navigation {
+  display: flex;
+  justify-content: space-around;
   text-decoration: none;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.navigation-wrapper {
-  display: grid;
-  grid-template-columns: 1fr;
-  background-color: var(--basic-white);
-  padding: 0 10px;
-}
-
-.contaner {
-  width: 940px;
-  margin: 0 auto;
-  padding: 0 10px;
-}
 
 .greeting{
   display: grid;
