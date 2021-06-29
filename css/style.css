@@ -239,20 +239,26 @@ grid-template-columns: 1fr 2fr;
 /*catalog*/
 
 .filters {
-  background-image: url("img/catalog/background.jpg");
+  background-image: url("img/catalog/background");
 }
 
-.filters legend {
-  display: grid;
+.filters-container {
+  display: flex;
   margin: 0;
   padding: 0;
-  grid-template-columns: 1fr 1fr 2fr;
+  list-style: none;
+  justify-content: space-around;
   color: var(--basic-white);
   font-size: 16px;
   line-height: 21px;
   font-weight: 700;
 }
-
+/*
+.cost {
+  display: flex;
+  flex
+}
+*/
 .filters ul {
   list-style: none;
   color: var(--basic-white);
