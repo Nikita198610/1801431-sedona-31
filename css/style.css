@@ -23,7 +23,6 @@
   background-color: var(--basic-white);
   background-position: top center;
   background-repeat: no-repeat;
-
   min-height: 100%;
   display: grid;
   grid-template-rows: min-content 1fr min-content;
@@ -62,15 +61,49 @@
 }
 
 
-.greeting{
+
+
+
+.greeting {
   display: grid;
   grid-template-columns: 1fr;
   padding: 0 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+.greeting_1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  justify-content: center;
+  background-image: url("/img/background_photo.jpg");
+  max-width: 1200px;
+  height: 509px;
+  transform: translate(0, -15px);
+  position: relative;
+}
+
+
+
+
+
+
+
+.city_in_arizona {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.sedona_better {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
 }
 
 .features-list {
   display: grid;
-  list-style: none;
   margin: 0;
   padding: 0;
 }
@@ -82,14 +115,21 @@
   font-weight: 700;
 }
 
+.features ul {
+  list-style: none;
+}
+
 .features-1_2 {
 display: grid;
 grid-template-columns: 1fr 2fr;
 }
 
-.features-item-1 {
+.features-1 {
   background-color: #81B3D2;
+  padding-top: 47px;
+  text-align: center;
 }
+
 
 .features-item-3 h2 {
   font-size: 21px;
@@ -112,6 +152,9 @@ grid-template-columns: 1fr 2fr;
 .features-3_5 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  list-style: none;
+  text-align: center;
   }
 
 .features-item-7 h2 {
@@ -121,8 +164,11 @@ grid-template-columns: 1fr 2fr;
   font-weight: 700;
 }
 
-.features-item-7 {
+.features-7 {
   background-color: #81B3D2;
+  padding-top: 47px;
+  text-align: center;
+
 }
 
 .features-item-8 h2 {
@@ -151,6 +197,10 @@ grid-template-columns: 1fr 2fr;
 .features-8_10 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  background-color: #EEEEEE;
+  padding-top: 47px;
+  text-align: center;
+
   }
 
 .search-hotel h3 {
@@ -201,6 +251,9 @@ grid-template-columns: 1fr 2fr;
   width: 568px;
   height: 86px;
   background-color: #766357;
+  padding-top: 47px;
+  text-align: center;
+
 }
 
 .main-footer .container {
@@ -236,10 +289,24 @@ grid-template-columns: 1fr 2fr;
   font-weight: 400;
 }
 
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /*catalog*/
 
 .filters {
-  background-image: url("img/catalog/background");
+  background-image: url("img/catalog/background.jpg");
 }
 
 .filters-container {
